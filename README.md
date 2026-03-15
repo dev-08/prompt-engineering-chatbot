@@ -54,32 +54,11 @@ Before pushing this notebook to a public repository:
 - optionally clear notebook outputs
 - double-check that no secrets are stored in the notebook
 
-## Example learning outcomes
+## Architecture Diagram
 
-After completing this notebook, you should understand:
+![Chatbot Architecture](./chatbot-architecture-diagram.png)
 
-- how a Python app calls an LLM through an API
-- how prompt engineering affects model behavior
-- how conversation history is managed in code
-- why chatbots need to resend previous messages for context
-
-## Suggested repository names
-
-- `understanding-llms`
-- `openai-chatbot-colab`
-- `llm-chatbot-basics`
-- `intro-to-llm-chatbots`
-
-## Future improvements
-
-You can extend this project by adding:
-
-- streaming responses
-- error handling
-- token usage management
-- system prompt customization
-- Gradio or Streamlit UI
-- retrieval-augmented generation (RAG)
+This diagram shows the full flow of the project from user input in Colab to the OpenAI API request, LLM inference, and the final chatbot response.
 
 ## License
 
